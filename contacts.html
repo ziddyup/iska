@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Idol | Contacts</title>
+
+	<link rel="stylesheet" href="./bsis1a-iska.css">
+	 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+	<!--MEGA MENU-->
+<div class="main-body" style="color: #eee;">
+<div class="mega-menu" id="mymenu" >
+<a href="iska.html">Home</a>
+<a href="./blogpage.html">Blogs</a>
+<a href="contacts.html" class="active">Contacts</a>
+<a href="about-us.html">About Us</a>
+
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	<i class="fa fa-bars"></i>
+</a>
+</div>
+<br>
+<!--Location-->
+
+<div class="loc">
+<h2>WHERE ARE WE LOCATED?</h2><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101425.88219424458!2d127.05735803434224!3d37.40026453205455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca7f1701220bf%3A0x50315666bce397d4!2sSeongnam-si%2C%20Gyeonggi-do%2C%20South%20Korea!5e0!3m2!1sen!2sph!4v1740443563097!5m2!1sen!2sph" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></div>
+
+<br>
+<!--CONTACT FORM-->
+	<div class="contact">
+		<fieldset>
+			<h2 style="color: black;">GET IN TOUCH BY FILLING OUT THIS FORM!</h2>
+			<form action="submit-form.php"
+			method="POST">
+
+<!--
+insert
+FIRST NAME / LAST NAME
+PHONE / EMAIL
+MESSAGE -- text area
+BUTTON NAME: Send Message
+-->
+
+<label for="fname">FIRST NAME:
+	</label>
+<input type="text" name="fname"><br><br>
+
+<label for="lname">LAST NAME:
+	</label>
+<input type="text" name="lname"><br><br>
+
+<label for="quantity">CONTACT NUMBER:
+</label>
+	<input type="number"><br><br>
+
+<label for="email">EMAIL:
+	</label>
+<input type="email" name="email"><br><br>
+
+<label for="message">MESSAGE:
+	</label>
+<input type="text-area" name="message"><br><br>
+
+<label for="button">SEND MESAGE:
+	</label>
+<input type="button"
+onclick="alert('Send Message')"
+value="Send Message"><br><br>
+
+</form>
+		</fieldset>
+
+ <div class="social-icons">
+    <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+  </div>
+
+  </div>
+  <div class="footer">
+  	<a href="https://skibidi.com" >ABOUT</a>
+ 	<a href="https://skibidi.com">SHOP</a>
+ 	<a href="https://skibidi.com">WATCH</a><br><br>
+ 	<a href="https://skibidi.com">Terms of Use</a>
+ 	<a href="https://skibidi.com">Privacy Policy</a><br>
+  	<p>© Copyright <a href="https://skibidi.com">The Idol</a>. All Rights Reserved.</p>
+  </div> 
+
+</div>
+</body>
+</html>
